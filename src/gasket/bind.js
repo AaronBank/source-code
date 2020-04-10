@@ -2,7 +2,7 @@
  * @Author: Aaron
  * @Date: 2020-04-10 15:42:40
  * @LastEditors: Aaron
- * @LastEditTime: 2020-04-10 16:08:29
+ * @LastEditTime: 2020-04-10 18:07:47
  * @Description: file content
  */
 Function.prototype.bind = function(ctx) {
