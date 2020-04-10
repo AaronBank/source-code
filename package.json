@@ -1,0 +1,8 @@
+{
+  "name": "source-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AaronBank/source-code.git",
+  "author": "shenweikang <shenweikang@daling.com>",
+  "license": "MIT"
+}
