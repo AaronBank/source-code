@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 60px;
+
+    /* 以下为美化样式 */
+    background-color: #00f6;
+    text-align: center;
+    line-height: 60px;
+}
+.container{
+    height: 500px;
+    padding-left: 200px;
+    padding-right: 160px;
+}
+
+.container div {
+    height: 100%;
+    position: relative;
+
+    /* 以下为美化样式 */
+    text-align: center;
+}
+
+.container .left{
+    float: left;
+    width: 200px;
+    margin-left: -100%;
+    left: -200px;
+
+    /* 以下为美化样式 */
+    background-color: red;
+}
+.container .center{
+    float: left;
+    width: 100%;
+    /* 以下为美化样式 */
+
+    background-color: pink;
+}
+.container .right{
+    float: left;
+    width: 160px;
+    margin-left: -160px;
+    right: -160px;
+
+    /* 以下为美化样式 */
+    background-color: green;
+}
+.footer{
+    height: 40px;
+    clear: both;
+    
+    /* 以下为美化样式 */
+    background-color: #ddd;
+    text-align: center;
+    line-height: 40px;
+}
