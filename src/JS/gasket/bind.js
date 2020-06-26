@@ -1,8 +1,8 @@
 /*
  * @Author: Aaron
  * @Date: 2020-04-10 15:42:40
- * @LastEditors: Aaron
- * @LastEditTime: 2020-04-10 18:07:47
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2020-06-26 15:58:34
  * @Description: file content
  */
 Function.prototype.bind = function(ctx) {
@@ -11,7 +11,7 @@ Function.prototype.bind = function(ctx) {
     const gArgs = Array.prototype.slice.call(arguments, 1)
     function bindFn() {
         const context = this instanceof bindFn ? this : ctx
-        const args = Array.prototype.slice(arguments)
+        const args = Array.prototype.slice.call(arguments)
         return fn.apply(context, gArgs.concat(args))
     }
 

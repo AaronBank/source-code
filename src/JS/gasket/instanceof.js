@@ -1,8 +1,8 @@
 /*
  * @Author: Aaron
  * @Date: 2020-04-10 18:06:41
- * @LastEditors: Aaron
- * @LastEditTime: 2020-04-10 18:18:19
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2020-06-26 15:48:29
  * @Description: file content
  */
 function _instanceof(target, examples) {
